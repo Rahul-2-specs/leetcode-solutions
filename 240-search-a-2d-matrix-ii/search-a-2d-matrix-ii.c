@@ -10,5 +10,4 @@ bool searchMatrix(int** m, int r, int* c, int tar){
         }
     }
     return false;
-    
 }
