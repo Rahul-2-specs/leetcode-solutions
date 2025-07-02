@@ -1,5 +1,4 @@
 bool searchMatrix(int** m, int r, int* c, int tar){
-    int left=0,right=(*c)*r-1;
     for (int i = 0; i < r; i++) {
         int left=0,right=(*c)-1;
         while(left<=right)
